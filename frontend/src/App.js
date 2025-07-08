@@ -6,7 +6,7 @@ const client = new ApolloClient({
   cache: new InMemoryCache()
 });
 
-const BLOGS_QUERY = gql\`
+const BLOGS_QUERY = gql`
   query {
     latestBlogs(limit: 5) {
       title
@@ -14,7 +14,7 @@ const BLOGS_QUERY = gql\`
       author { name }
     }
   }
-\`;
+`;
 
 function BlogList() {
   const { data, loading, error } = useQuery(BLOGS_QUERY);
