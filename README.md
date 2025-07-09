@@ -1,4 +1,4 @@
-# 🧠 Blog GraphQL + Neo4j RAG Full Stack App
+# 🧠 CortexBlog ReadME
 
 A full-stack project that combines:
 
